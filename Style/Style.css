@@ -1,0 +1,95 @@
+/* Paralax - Index */
+body{
+    background-image: url(../MIDIA/Bg.svg);
+    background-repeat:repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    margin: 0;
+    padding: 0;
+}
+
+
+/* Paralax - Index */
+
+.img1, .img2, .img3{
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+.img1{
+    background-image: url(../MIDIA/Banner\ Home.svg);
+    height: 740px;
+}
+.img2{
+    background-image: url(../MIDIA/Banner\ Entrevista.svg);
+    height: 700px;
+
+}
+.conteudo{
+    background-color: #031625;
+    padding: 120px 120px 60px 60px;
+    background-image: url(../MIDIA/Plugados.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+
+/* Espaço - Main */
+
+main{
+    margin-top: 105px;
+}
+
+/* Botão */
+
+.blog-pagination {
+    margin-top: -4rem;
+
+}
+.blog-pagination > .btn {
+    border-radius: 2rem;
+    margin-top: -4rem;
+    margin-left:87.5%
+}
+
+
+
+/* Cards */
+
+.bd-placeholder-img {
+    font-size: 1.125rem;
+    text-anchor: middle;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    user-select: none;
+}
+
+
+/* Texto - Curiosidades */
+
+.text-muted > h5{
+    font-family: sans-serif; 
+    text-indent: 3em; 
+    text-align: justify;
+    line-height: 1.7;
+    padding-bottom: 15px;
+}
+
+/* Rodapé */
+
+svg {
+    fill: white;
+}
+.text-muted, .conteudo2 .text-muted {
+    color: white !important;
+}
+
+.conteudo2{
+    background-color: #031625;
+    height: 86.4px;
+    width: 100%;
+}
